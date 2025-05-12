@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.4;
+  height: 100vh;
+  background: linear-gradient(to right, #ecf9e5 0%, #ecf9e5 100%);
+  color: #333;
+}
+
+.container {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 2rem;
+}
+
+.left-side {
+  width: 40rem;
+}
+.left-side__header {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profil-img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.profil-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.profil-job {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+/* Ish tajribasi */
+
+.work-timeline {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.work-timeline__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.work-timeline__item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* gap: 2rem; */
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.work-timeline__item-date {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #666;
+}
+.work-timeline__item-right {
+  padding-left: 1rem;
+  border-left: 2px solid #ccc;
+}
+.work-timeline__item-company {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.work-timeline__item-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.work-timeline__item-description {
+  font-size: 1.2rem;
+  color: #666;
+}
+.education-section {
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.eduaction-section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.education-section__item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* align-items: center; */
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.education-item-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.education-item-date {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #666;
+}
+
+.education-item-description {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.education-item-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-item-img {
+  width: 80px;
+  filter: grayscale(100%);
+}
+.skills-section {
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-between;
+}
+.skills-list__item i {
+  font-size: 5rem;
+  color: #333;
+  margin-right: 1rem;
+}
+
+.contact-info {
+  padding: 2rem;
+}
+
+.contact-info__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
